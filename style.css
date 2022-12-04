@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.d-flex{
+    display: flex;
+}
+.header{
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container{
+    display: flex;
+}
+
+.header__icon{
+    /* border: 5px solid blue; */
+    font-size: 2.5rem;
+    color: blue;
+    padding: .2em;
+    cursor: pointer;
+}
+.header__navbar{
+    /* border: 5px solid black; */
+    max-width: 500px;
+    width: 100%;
+}
+
+
+.navbar__heading--icon{
+    /* border: 5px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    padding: .3em;
+    position: relative;
+}
+.navbar__heading--icon > p{
+    font-size: 1.3rem;
+    
+}
+.navbar__heading--icon > i{
+    padding: .3em;
+    color: rgb(160, 153, 153);
+    cursor: pointer;
+    
+}
+.navbar__menu >p:hover{
+   background-color:rgb(235, 238, 241);
+}
+.navbar__heading--icon >i:hover{
+    background-color:rgb(235, 238, 241);
+ }
+ 
+.navbar__menu{
+    display: flex;
+    justify-content: space-around;
+    padding: .2em;
+}
+
+#navbar__menu-hamberg{
+    display: none;
+    justify-content: space-around;
+    padding: .2em;
+}
+
+
+.navbar__menu>p{
+    padding: .2em;
+    cursor: pointer;
+}
+
+
+#star{
+    height: 50px;
+    width: 50px;
+    /* background-color: black; */
+    position: absolute;
+    top: 30px;
+    left: 135px;
+    color: white;
+    text-align: center;
+   
+}
+
+
+#drive{
+    height: 25px;
+
+    /* background-color: black; */
+    position: absolute;
+    top: 30px;
+    left: 135px;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+#info1{
+    height: 25px;
+
+    /* background-color: black; */
+    position: absolute;
+    top: 30px;
+    left: 140px;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+#cloud{
+    height: 25px;
+    color: rgb(182, 182, 202);
+    /* background-color: black; */
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+.newP{
+    /* background-color: black; */
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.left-navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1em;
+}
+
+#request-access{
+    color: rgba(0, 60, 255, 0.644);
+    border: 1px solid rgb(204, 203, 203);
+    padding: .5em;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#request{
+    height: 55px;
+
+    /* background-color: black; */
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+#user{
+    background-color:red;
+    color: white;
+    padding: .5em;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 1em;
+    border-radius: 20px;
+}
+
+#user1{
+    height: 55px;
+
+    /* background-color: black; */
+    position: absolute;
+    top: 50px;
+    right: 180px;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+#video-call{
+    border: 1px solid rgb(179, 162, 162);
+    color: black;
+    padding: .2em;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 1em;
+    border-radius: 20px;
+}
+
+#video{
+    height: 55px;
+
+    /* background-color: black; */
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+#video-call> i{
+    top: 0;
+}
+
+#share-link{
+    border: 1px solid rgb(179, 162, 162);
+    color: rgb(233, 225, 225);
+    padding: .3em;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 1em;
+    background-color: rgb(42, 42, 219);
+}
+
+#share{
+    height: 55px;
+
+    /* background-color: black; */
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    border-radius: 20px;
+}
+#share-link>span{
+    font-size: 1.5rem;
+}
+
+
+#ac-link{
+    border: 1px solid rgb(179, 162, 162);
+    color: rgb(12, 16, 223);
+    padding: .5em;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 1em;
+    
+    background-color: rgb(241, 241, 248);
+    border-radius: 20px;
+}
+
+#account{
+    height: 55px;
+
+    /* background-color: black; */
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 500px){
+    #navbar__menu-hamberg{
+        display: flex;
+        justify-content: space-around;
+        padding: .2em;
+        
+    }
+    .navbar__menu{
+        display: none;
+    }
+
+    #hamberg-icon{
+        margin-left:-20 ;
+    }
+}
+
+
